@@ -1,0 +1,56 @@
+automoc4
+------------------------------------------
+This package contains the automoc4 binary which is used to run moc 
+when building a Qt 4 or KDE 4 application with cmake.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libQtCore4-4.4.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-2
+  cmake-2.4.8-3
+  cygport-0.3.13-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  http://websvn.kde.org/trunk/kdesupport/automoc/
+
+-------------------------------------------
+
+Build instructions:
+  unpack automoc4-0.9.84-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./automoc4-0.9.84-X.cygport all
+
+This will create:
+  /usr/src/automoc4-0.9.84-X-src.tar.bz2
+  /usr/src/automoc4-0.9.84-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/automoc4.exe
+  /usr/lib/automoc4/Automoc4Config.cmake
+  /usr/lib/automoc4/Automoc4Version.cmake
+  /usr/lib/automoc4/automoc4.files.in
+
+------------------
+
+Port Notes:
+
+----- version 0.9.84-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

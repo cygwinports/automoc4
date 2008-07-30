@@ -48,6 +48,9 @@ Files included in the binary package:
 
 Port Notes:
 
+----- version 0.9.85-1 -----
+Fix for KDE bug 167175.
+
 ----- version 0.9.84-1 -----
 Initial release for Cygwin.
 

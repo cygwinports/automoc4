@@ -1,0 +1,5 @@
+DESCRIPTION="CMake hooks for Qt4 moc generation"
+SVN_BRANCH="trunk/kdesupport/automoc"
+SVN_REV=839472
+
+inherit kde4 qt4-cmake svn

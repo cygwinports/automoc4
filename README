@@ -5,13 +5,15 @@ when building a Qt 4 or KDE 4 application with cmake.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libQtCore4-4.4.0-1
+  cmake
+  libQtCore4-4.4.2-1
+  libQtCore4-devel
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-2
-  cmake-2.4.8-3
-  cygport-0.3.13-1
+  binutils-20080624-2
+  cmake-2.6.2-2
+  cygport-0.4.4-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   make-3.81-1
@@ -20,20 +22,20 @@ Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  http://websvn.kde.org/trunk/kdesupport/automoc/
+  ftp://ftp.kde.org/pub/kde/unstable/automoc4/
 
 -------------------------------------------
 
 Build instructions:
-  unpack automoc4-0.9.84-X-src.tar.bz2
+  unpack automoc4-0.9.87-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./automoc4-0.9.84-X.cygport all
+  cygport ./automoc4-0.9.87-X.cygport all
 
 This will create:
-  /usr/src/automoc4-0.9.84-X-src.tar.bz2
-  /usr/src/automoc4-0.9.84-X.tar.bz2
+  /usr/src/automoc4-0.9.87-X-src.tar.bz2
+  /usr/src/automoc4-0.9.87-X.tar.bz2
 
 -------------------------------------------
 
@@ -47,6 +49,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.87-1 -----
+Version bump.
 
 ----- version 0.9.85-1 -----
 Fix for KDE bug 167175.

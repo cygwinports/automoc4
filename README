@@ -12,7 +12,7 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cmake-2.6.2-2
+  cmake-2.6.2-3
   cygport-0.4.4-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack automoc4-0.9.87-X-src.tar.bz2
+  unpack automoc4-0.9.88-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./automoc4-0.9.87-X.cygport all
+  cygport ./automoc4-0.9.88-X.cygport all
 
 This will create:
-  /usr/src/automoc4-0.9.87-X-src.tar.bz2
-  /usr/src/automoc4-0.9.87-X.tar.bz2
+  /usr/src/automoc4-0.9.88-X-src.tar.bz2
+  /usr/src/automoc4-0.9.88-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,6 +49,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.88-1 -----
+Version bump for KDE 4.2.
 
 ----- version 0.9.87-1 -----
 Version bump.

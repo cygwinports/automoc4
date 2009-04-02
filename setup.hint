@@ -1,5 +1,5 @@
 category: Devel KDE
-requires: cygwin cmake libQtCore4 libQtCore4-devel
+requires: cygwin cmake libgcc1 libQtCore4 libQtCore4-devel libstdc++6
 sdesc: "CMake hooks for Qt4 moc generation"
 ldesc: "This package contains the automoc4 binary which is used to run moc 
 when building a Qt 4 or KDE 4 application with cmake."

@@ -4,19 +4,21 @@ This package contains the automoc4 binary which is used to run moc
 when building a Qt 4 or KDE 4 application with cmake.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-44
   cmake
-  libQtCore4-4.4.2-1
+  libgcc1-4.3.2-2
+  libQtCore4-4.4.3-10
   libQtCore4-devel
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cmake-2.6.2-3
-  cygport-0.4.4-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
+  cmake-2.6.3-10
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
 
 Canonical website:
   http://www.kde.org/
@@ -50,17 +52,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.9.88-1 -----
-Version bump for KDE 4.2.
-
------ version 0.9.87-1 -----
-Version bump.
-
------ version 0.9.85-1 -----
-Fix for KDE bug 167175.
-
------ version 0.9.84-1 -----
-Initial release for Cygwin.
+----- version 0.9.88-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

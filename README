@@ -4,10 +4,10 @@ This package contains the automoc4 binary which is used to run moc
 when building a Qt 4 or KDE 4 application with cmake.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-48
   cmake
   libgcc1-4.3.2-2
-  libQtCore4-4.4.3-10
+  libQtCore4-4.5.1-1
   libQtCore4-devel
   libstdc++6-4.3.2-2
 

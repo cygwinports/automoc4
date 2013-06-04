@@ -1,3 +1,0 @@
-inherit kde4 qt4-cmake
-
-DESCRIPTION="CMake hooks for Qt4 moc generation"

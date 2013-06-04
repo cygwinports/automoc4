@@ -1,0 +1,11 @@
+inherit kde4 qt4-cmake
+
+NAME="automoc4"
+VERSION=0.9.88
+RELEASE=10
+CATEGORY="Devel KDE"
+SUMMARY="CMake hooks for Qt4 moc generation"
+DESCRIPTION="This package contains the automoc4 binary which is used to run moc
+when building a Qt 4 or KDE 4 application with cmake."
+
+automoc4_REQUIRES="cmake libQtCore4-devel"
